@@ -1,0 +1,105 @@
+.showcase {
+    width: 100%;
+    min-height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)),url(showcase3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.showcase-title h1 {
+    color: brown;
+    padding: 10px 10px;
+    margin: 10%;
+    font-size: 50px;
+    font-weight: 700;
+    animation-delay: .6s;
+}
+
+.showcase-title span {
+    color: lightgray;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.showcase-title h1 p {
+    font-size: 20px;
+    color: lightgray;
+}
+
+.gallery-note .gallery-note-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.gallery-page {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.gallery-page p {
+    color: brown;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.gallery-note .w3-col {
+    width: 40%;
+}
+
+
+.gallery-note p {
+    color: lightgray;
+    padding: 16px;
+    font-weight: normal;
+    display: block;
+    background-color: brown;
+}
+
+/* Gallery-Page */
+.gallery-page .w3-col {
+    padding: 10px;
+    width: 20%;
+}
+
+
+/* Leave A Message */
+.message .my-form {
+    border: 1px solid black;
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.message .box {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+}
+
+@media(max-width: 768px) {
+     .gallery-page .w3-col {
+        width: 33.333%;
+    }
+    .gallery-note .w3-col {
+        width: 100%;
+        margin: 0;
+    }
+    .message .my-form {
+        width: 100%;
+      
+        
+    }
+}
+
+@media(max-width: 400px) {
+        .gallery-page .w3-col {
+           width: 50%;
+       }
+       .gallery-page p {
+           font-size: 12px;
+       }
+}

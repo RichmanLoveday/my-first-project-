@@ -1,0 +1,62 @@
+.showcase {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)),url(showcase5.jpg);
+}
+
+.about .container {
+    width: 85%;
+}
+
+.about .about-flex .container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.about .container .about-us {
+    width: 50%;
+    text-align: center;
+    line-height: 2;
+    color: brown;
+}
+
+.about .container .about-us h1 {
+    font-weight: 500;
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about .container .faqs {
+    width: 50%;
+    margin-left: 5%;
+    padding: 2px;
+}
+
+.about-flex .container li {
+    list-style: none;
+}
+
+.about .faqs h4 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    color: brown;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media(max-width: 768px) {
+    .about .about-flex .container {
+        flex-wrap: wrap;
+    }
+    .about .container .about-us {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .about .container .faqs {
+        width: 100%;
+    }
+}

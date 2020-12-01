@@ -1,0 +1,315 @@
+.showcase {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)),url(showcase4.jpg);
+}
+
+.info .info-flex .container {
+     display: flex;
+     justify-content: center;
+     justify-content: space-between;
+     align-items: flex-start;
+}
+
+.info .info-flex {
+    position: relative;
+    top: -80px;
+    z-index: 100%;
+}
+
+.info .info-flex .box1,
+.info .info-flex .box2, 
+.info .info-flex .box3  {
+    border: 1px solid brown;
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: rgba(165, 42, 42, 0.9);
+    color: lightgray;
+}
+
+.info .info-flex .box1 h4, .info .info-flex .box2 h4, .info .info-flex .box3 h4 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.services table {
+    border-collapse: collapse;
+    width: 40%;
+    align-self: flex-start;
+}
+
+.services table th {
+    border: 1px solid rgba(165, 42, 42, 0.5);
+    padding: 20px 20px 5px 0px;
+    color: brown;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid rgba(165, 42, 42, 0.5);
+}
+
+.services table .stylelist, .services table .sn {
+    padding: 20px 0px 2px 10px;
+    color: brown;
+    letter-spacing: 2px;
+    border: 1px solid rgba(165, 42, 42, 0.5);
+}
+
+.services table .pricelist {
+    text-align: center;
+    color: brown;
+    letter-spacing: 2px;
+    border: 1px solid rgba(165, 42, 42, 0.5);
+}
+
+.services .services-flex .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 5%; 
+   
+}
+
+.services .measurement {
+    flex-basis: 50%;
+}
+
+.services .measurement-flex {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.services .services-flex .measurement-flex .box1, 
+.services .services-flex .measurement-flex .box2,
+.services .services-flex .measurement-flex .box3,
+.services .services-flex .measurement-flex .box4,
+.services .services-flex .measurement-flex .box5,
+.services .services-flex .measurement-flex .box6,
+.services .services-flex .measurement-flex .box7,
+.services .services-flex .measurement-flex .box8,
+.services .services-flex .measurement-flex .box9,
+.services .services-flex .measurement-flex .box10{
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+}
+
+.services span {
+    font-size: large;
+    font-weight: bold;
+    color: brown;
+    padding-right: 5px;
+}
+
+.services .measurement p {
+    color: brown;
+}
+
+.services .measurement h5 {
+    color: brown;
+    font-weight: bold;
+}
+
+.services .measurement h4 {
+    font-size: 30px;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Contact A Tailor*/
+.section-tailor .section-tailor-flex .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.section-tailor .working-hours {
+    flex-basis: 40%;
+    color: lightgray;
+    background-color: brown;
+    margin: 20px;
+    align-self: flex-start;
+}
+
+.section-tailor .section-tailor-flex .working-hours p {
+    margin: 20px;
+    padding: 20px;
+}
+
+.section-tailor .section-tailor-flex .working-hours h4 {
+    margin: 20px;
+    padding: 20px;
+}
+
+.section-tailor .section-tailor-flex .my-form2 {
+    flex-grow: 1;
+    padding: 5px;
+}
+
+.section-tailor .box {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+}
+
+.section-tailor .style {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-tailor h3, .section-tailor h1 {
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: brown;
+    color: lightgray;
+    padding: 10px;
+}
+
+.section-tailor form {
+    margin: 20px;
+}
+
+.section-tailor ::placeholder {
+    font-weight: bold;
+}
+
+.section-tailor textarea {
+    padding: 5px;
+    width: 100%;
+    border: 0;
+    border: 1px solid rgba(165, 42, 42, 0.2);
+    background-color: lightgray;
+    outline: none;
+}
+
+.section-tailor input[type='email'],
+.section-tailor input[type='text'],
+.section-tailor input[type='phone'],
+.section-tailor input[type='name'],
+.section-tailor input[list='text'],
+.section-tailor input[list='state'],
+.section-tailor input[list='fabric'],
+.section-tailor input[list='style'],
+.section-tailor input[list='work'] {
+    padding: 5px;
+    border: 0;
+    border: 1px solid rgba(165, 42, 42, 0.2);
+    background-color: lightgray;
+    outline: none;
+}
+
+.section-tailor select[type='style'],
+.section-tailor select[type='work'],
+.section-tailor select[type='fabric'] {
+    padding: 5px;
+}
+
+.section-tailor select {
+    width: 100%;
+    border: 0;
+    border: 1px solid rgba(165, 42, 42, 0.2);
+    background-color: lightgray;
+    outline: none;
+}
+
+.section-tailor .my-form2 p {
+    margin-top: 16px;
+    font-weight: 700;
+}
+
+.section-tailor .my-form2-btn {
+    background-color: brown;
+    color: lightgray;
+    margin-bottom: 16px ;
+    transition: transform 0.3s ease-out;
+}
+
+.section-tailor .my-form2-btn:hover {
+    cursor: pointer;
+    transform: scale(0.98);
+}
+
+@media(max-width: 768px) {
+    .info .info-flex .container {
+        flex-wrap: wrap;
+   }
+    .info .info-flex .box1, .info .info-flex .box2, .info .info-flex .box3{
+        margin-top: 10px;
+   }
+    .services table {
+      width: 100%;
+    }
+    .services .services-flex .container {
+        flex-wrap: wrap;
+    }
+    .services .measurement-flex {
+     flex-wrap: wrap;
+    }
+    .services .measurement {
+        flex-basis: 100%;
+    }
+    .services .measurement h4 {
+       margin-top: 20px;
+    }
+    .services .services-flex .measurement-flex .box1, 
+    .services .services-flex .measurement-flex .box2,
+    .services .services-flex .measurement-flex .box3,
+    .services .services-flex .measurement-flex .box4,
+    .services .services-flex .measurement-flex .box5,
+    .services .services-flex .measurement-flex .box6,
+    .services .services-flex .measurement-flex .box7,
+    .services .services-flex .measurement-flex .box8,
+    .services .services-flex .measurement-flex .box9,
+    .services .services-flex .measurement-flex .box10 {
+        flex-grow: 1;
+    }    
+    .section-tailor .section-tailor-flex .container {
+        flex-wrap: wrap;
+    }
+    .section-tailor .working-hours {
+        flex-grow: 1;
+    }
+    .section-tailor input[type='email'],
+    .section-tailor input[type='text'],
+    .section-tailor input[type='phone'],
+    .section-tailor input[type='name'],
+    .section-tailor input[list='text'],
+    .section-tailor input[list='state'],
+    .section-tailor input[list='fabric'],
+    .section-tailor input[list='style'] {
+         width: 100%;
+         margin-bottom: 10px;
+}
+
+.section-tailor select[type='style'],
+.section-tailor select[type='work'],
+.section-tailor select[type='fabric'] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+    
+}
+
+@media(max-width: 400px) {
+    .services .services-flex .measurement-flex .box1, 
+    .services .services-flex .measurement-flex .box2,
+    .services .services-flex .measurement-flex .box3,
+    .services .services-flex .measurement-flex .box4,
+    .services .services-flex .measurement-flex .box5,
+    .services .services-flex .measurement-flex .box6,
+    .services .services-flex .measurement-flex .box7,
+    .services .services-flex .measurement-flex .box8,
+    .services .services-flex .measurement-flex .box9,
+    .services .services-flex .measurement-flex .box10 {
+        flex-basis: 100px;
+   }  
+.showcase-title h1{
+       margin-bottom: 60px;
+   }
+}
